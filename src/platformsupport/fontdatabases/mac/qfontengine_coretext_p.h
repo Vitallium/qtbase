@@ -106,6 +106,8 @@ public:
     virtual QFontEngine *cloneWithSize(qreal pixelSize) const;
     virtual int glyphMargin(QFontEngine::GlyphFormat format) { Q_UNUSED(format); return 0; }
 
+    virtual QFontEngine::Properties properties() const;
+
     static bool supportsColorGlyphs()
     {
 #if defined(Q_OS_IOS)
