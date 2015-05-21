@@ -195,6 +195,8 @@ public:
 
     void updateState(const QPaintEngineState &state);
 
+    void drawHyperlink(const QRectF &r, const QUrl &url);
+
     int metric(QPaintDevice::PaintDeviceMetric metricType) const;
     Type type() const;
     // end reimplementations QPaintEngine
