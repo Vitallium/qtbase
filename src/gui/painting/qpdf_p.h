@@ -192,6 +192,8 @@ public:
 
     void drawHyperlink(const QRectF &r, const QUrl &url);
 
+    void drawHyperlink(const QRectF &r, const QUrl &url);
+
     int metric(QPaintDevice::PaintDeviceMetric metricType) const;
     Type type() const Q_DECL_OVERRIDE;
     // end reimplementations QPaintEngine
